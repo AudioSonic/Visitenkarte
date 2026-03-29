@@ -1,0 +1,76 @@
+body{
+    background-color: #AACEEC;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+h1{
+    font-size: 20pt;
+    font-style:normal;
+    margin: 0 0 1px 0;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 12pt;
+    margin: 5px 0 20px 0px;
+}
+
+button{
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    border-style:solid;
+    border-width: 0.5px;
+}
+
+#github-button{
+    background-color: #2D6FBE;
+    color: white;
+    font-style: bold;
+    border-color:#2D6FBE;
+}
+
+#linkedIn-button{
+    background-color: #E5E6EB;
+    border-style:solid;
+    border-width: 0.5px;
+    border-color: lightgrey;
+}
+
+#ueberMich{
+    text-align: center;
+}
+
+#ueberMich-button{
+    width: 120px;
+    background-color: #2D6FBE;
+    color: white;
+    font-style: bold;
+    border-color:#2D6FBE;
+}
+
+.grid{
+display:grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 60% 20%;
+    height: 100vh;
+}
+
+.foreground{
+    background-color: white;
+    padding: 15px 25px 50px 25px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+#bild{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 15px 0;
+        border-radius: 5px;
+}
+
+.erstesDrittel{
+    text-align: center;
+}
