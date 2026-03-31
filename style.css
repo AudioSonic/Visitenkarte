@@ -38,6 +38,11 @@ button{
     border-color: lightgrey;
 }
 
+.buttonIcons{
+    height: 14px;
+    width: 14px;
+}
+
 #ueberMich{
     text-align: center;
 }
@@ -48,6 +53,20 @@ button{
     color: white;
     font-style: bold;
     border-color:#2D6FBE;
+}
+
+#ueberMichText{
+    visibility: hidden;
+}
+
+.btn {
+    background-color: #E5E6EB;
+    border-style:solid;
+    border-width: 0.5px;
+    border-color: lightgrey;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
 }
 
 .grid{
