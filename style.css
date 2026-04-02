@@ -38,11 +38,6 @@ button{
     border-color: lightgrey;
 }
 
-.buttonIcons{
-    height: 14px;
-    width: 14px;
-}
-
 #ueberMich{
     text-align: center;
 }
@@ -56,7 +51,7 @@ button{
 }
 
 #ueberMichText{
-    visibility: hidden;
+    display: none;
 }
 
 .btn {
@@ -67,6 +62,24 @@ button{
     border-radius: 5px;
     height: 30px;
     width: 90px;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonIcons{
+    height: 14px;
+    width: 14px;
+    margin: 3px;
+}
+
+.btn:visited {
+    color: black;
+}
+
+.btn:hover {
+    color: black;
 }
 
 .grid{
