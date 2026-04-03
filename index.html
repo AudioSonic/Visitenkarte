@@ -1,60 +1,59 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <title>Meine Visitenkarte</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-<div class="grid">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div>
-    <div class="foreground">
-        <div class="erstesDrittel">
-            <img src="Foto.jpg" id="bild">
+<head>
+    <meta charset="UTF-8">
+    <title>Meine Visitenkarte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main class="grid">
+    <section class="foreground">
+
+        <header class="erstesDrittel">
+            <img src="Foto.jpg" id="bild" alt="Profilbild von Alexander Stach">
 
             <h1>Alexander Stach</h1>
             <h2>Junior Webentwickler</h2>
+
+            <nav>
                 <a href="https://github.com/AudioSonic" target="_blank" class="btn">
-                <img src="GitHub_icon.png" class="buttonIcons">
-                GitHub
+                    <img src="GitHub_icon.png" class="buttonIcons" alt="Das Logo von GitHub">
+                    GitHub
                 </a>
 
                 <a href="https://www.linkedin.com/in/stachalex/" target="_blank" class="btn">
-                <img src="LinkedIn_icon.png" class="buttonIcons">
-                LinkedIn
+                    <img src="LinkedIn_icon.png" class="buttonIcons" alt="Das Logo von LinkedIn">
+                    LinkedIn
                 </a>
-        </div>
+            </nav>
+        </header>
 
         <hr>
 
-        <div>
+        <section>
             <p>
-            Ich lerne HTML, CSS & JavaScript, um tolle Webseiten zu bauen.
+                Ich lerne HTML, CSS & JavaScript, um tolle Webseiten zu bauen.
             </p>
+
             <div id="ueberMich">
-                <button  id="ueberMich-button">Mehr über mich</button>
+                <button class="btn primary">Mehr über mich</button>
             </div>
+        </section>
 
-        </div>
-
-
-    <div id="ueberMichText">
+        <section id="ueberMichText">
             <hr>
-            Hallo! Ich bin Alex, ein leidenschaftlicher Technik-Enthusiast. <br>
-            In meiner Freizeit koche ich gerne und gehe gerne wandern.
-    </div>
+            <h2>Über mich</h2>
+            <p>
+                Hallo! Ich bin Alex, ein leidenschaftlicher Technik-Enthusiast. <br>
+                In meiner Freizeit koche ich gerne und gehe gerne wandern.
+            </p>
+        </section>
 
-    </div>    
-</div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-        <script src="script.js"></script>    
-    </body>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
 </html>

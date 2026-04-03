@@ -16,86 +16,31 @@ h2{
     margin: 5px 0 20px 0px;
 }
 
-button{
-    height: 30px;
-    width: 90px;
-    border-radius: 5px;
-    border-style:solid;
-    border-width: 0.5px;
-}
-
-#github-button{
-    background-color: #2D6FBE;
-    color: white;
-    font-style: bold;
-    border-color:#2D6FBE;
-}
-
-#linkedIn-button{
-    background-color: #E5E6EB;
-    border-style:solid;
-    border-width: 0.5px;
-    border-color: lightgrey;
-}
-
 #ueberMich{
     text-align: center;
-}
-
-#ueberMich-button{
-    width: 120px;
-    background-color: #2D6FBE;
-    color: white;
-    font-style: bold;
-    border-color:#2D6FBE;
 }
 
 #ueberMichText{
     display: none;
 }
 
-.btn {
-    background-color: #E5E6EB;
-    border-style:solid;
-    border-width: 0.5px;
-    border-color: lightgrey;
-    border-radius: 5px;
-    height: 30px;
-    width: 90px;
-    display: inline-flex;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
+#ueberMichText.active {
+    display: block;
 }
 
-.buttonIcons{
-    height: 14px;
-    width: 14px;
-    margin: 3px;
-}
-
-.btn:visited {
-    color: black;
-}
-
-.btn:hover {
-    color: black;
-}
-
-.grid{
-display:grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 20% 60% 20%;
+.grid {
+    display: grid;
+    place-items: center;
     height: 100vh;
 }
 
-.foreground{
+.foreground {
     background-color: white;
     padding: 15px 25px 50px 25px;
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     border-radius: 10px;
 }
-
 #bild{
     width: 100px;
     height: 100px;
@@ -105,4 +50,48 @@ display:grid;
 
 .erstesDrittel{
     text-align: center;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    height: 32px;
+    padding: 0 12px;
+
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+
+    background-color: #E5E6EB;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.btn.primary {
+    background-color: #2D6FBE;
+    color: white;
+    border-color: #2D6FBE;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+}
+
+.buttonIcons {
+    height: 14px;
+    width: 14px;
+}
+
+.btn:visited {
+    color: black;
+}
+
+.btn:hover {
+    color: black;
 }
